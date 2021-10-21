@@ -1,0 +1,22 @@
+.saved-posts{
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.saved-posts img{
+    padding:5px;
+    margin:5px;
+    height:240px;
+    width:200px;
+    cursor:pointer;
+}
+
+@media screen and (max-width: 430px){
+    .saved-posts img{
+        height:180px;
+    width:160px;
+    }
+   
+}

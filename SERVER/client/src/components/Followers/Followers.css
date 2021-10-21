@@ -1,0 +1,10 @@
+.followers-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .followers-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+} */

@@ -1,0 +1,53 @@
+
+    * {box-sizing: border-box;}
+    .signupForm{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+.input-container {
+    
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  padding: 8px;
+  
+  color:black;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 4px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+.signup_btn {
+  background-color: #B53471;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.card-header{
+    background-color:#0984e3;
+}

@@ -1,0 +1,57 @@
+
+.edit-post-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .input-file {
+    display: none;
+  }
+  .edit-post-header {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: #38ada9;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+  }
+ .edit-post input {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #4b7bec;
+    width: 200%;
+    padding: 20px;
+    margin: 15px;
+    font-size: 20px;
+  }
+  
+  .edit-post .btn {
+    padding: 8px;
+    letter-spacing: 0.5px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    background-color: #4b7bec;
+  }
+ 
+  .go-back-arrow {
+    margin-top: 20px;
+    cursor: pointer;
+    color: #d63031;
+  }
+  
+  
+  @media (max-width: 768px) {
+   .edit-post input {
+      width: 130%;
+      margin: 5px;
+      font-size: 15px;
+    }
+    .edit-post-header {
+      font-size: 20px;
+    }
+  }
